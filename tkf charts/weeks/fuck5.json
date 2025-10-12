@@ -1,0 +1,50 @@
+{
+	"storyName": "Vs retrogamer r OST",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"retro ing",
+			"retrogamer r",
+			[
+				0,
+				215,
+				255
+			]
+		],
+		[
+			"evil gamer",
+			"retrogamer r_freeplay_evil gamer",
+			[
+				0,
+				175,
+				215
+			]
+		],
+		[
+			"HELL",
+			"HELLGAMER",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Week retrogamer r"
+}

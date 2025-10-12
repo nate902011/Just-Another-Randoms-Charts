@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Places",
+			"dave_pre_alpha_2",
+			[
+				168,
+				202,
+				236
+			]
+		],
+		[
+			"Landslide",
+			"dave_alpha_5",
+			[
+				148,
+				182,
+				216
+			]
+		],
+		[
+			"Trokhophobia",
+			"DavaAlgebraClass but 3D but Alpha 6 coolio",
+			[
+				195,
+				138,
+				161
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Vs Dave Algebra Class FNF Pre Alpha 2 Alpha 5 Alpha 6 OST",
+	"weekName": "Week Dave Algebra Class",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
