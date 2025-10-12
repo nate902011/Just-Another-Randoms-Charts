@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="HELLGAMER.png">
+<SubTexture name="idle0000" x="0" y="0" width="257" height="249" frameX="-78" frameY="-73" frameWidth="436" frameHeight="382" />
+</TextureAtlas>

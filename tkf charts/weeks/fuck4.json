@@ -1,0 +1,41 @@
+{
+	"songs": [
+		[
+			"zarp",
+			"angryRedBambiAlt",
+			[
+				140,
+				0,
+				0
+			]
+		],
+		[
+			"feverful wrathing",
+			"angryRedBambiAlt_freeplay",
+			[
+				80,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "normal",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "Vs The Rage Bambi Showdown at BLABLABLABLA OST",
+	"weekName": "vs the rage bambi showdown",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "",
+	"startUnlocked": true
+}

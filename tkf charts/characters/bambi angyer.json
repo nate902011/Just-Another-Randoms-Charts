@@ -1,0 +1,151 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				-7
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				13,
+				165
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-121,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-109,
+				-78
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				250,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				30,
+				95
+			],
+			"loop": false,
+			"fps": 34,
+			"anim": "phoneSmash",
+			"indices": [],
+			"name": "phone"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				30
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "shredder up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-151,
+				-1
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "shredder right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-60
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "shredder down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				11
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "shredder left",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"losing_colors": [
+		140,
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"image": "characters/angyer bambi",
+	"shake_duration": 0,
+	"position": [
+		0,
+		315
+	],
+	"health_drain": false,
+	"shake_intensity": 0,
+	"healthicon": "angryRedBambiAlt",
+	"shake_screen": false,
+	"drain_floor": 0,
+	"flip_x": false,
+	"healthbar_colors": [
+		140,
+		0,
+		0
+	],
+	"drain_amount": 0,
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"noteskin": null,
+	"winning_colors": [
+		140,
+		0,
+		0
+	],
+	"scale": 1.1
+}

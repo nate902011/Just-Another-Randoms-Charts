@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="JAREXPUNGED.png">
+<SubTexture name="down0000" x="0" y="0" width="799" height="915" frameX="-614" frameY="-745" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="down0001" x="799" y="0" width="789" height="911" frameX="-619" frameY="-731" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="idle0000" x="1588" y="0" width="760" height="914" frameX="-648" frameY="-435" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="idle0001" x="0" y="915" width="773" height="899" frameX="-648" frameY="-450" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="idle0002" x="773" y="915" width="796" height="866" frameX="-648" frameY="-483" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="left0000" x="1569" y="915" width="703" height="941" frameX="-372" frameY="-471" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="left0001" x="0" y="1856" width="694" height="932" frameX="-384" frameY="-476" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="right0000" x="694" y="1856" width="772" height="946" frameX="-864" frameY="-418" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="right0001" x="1466" y="1856" width="765" height="937" frameX="-857" frameY="-423" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="up0000" x="0" y="2802" width="792" height="910" frameX="-620" frameY="-191" frameWidth="2000" frameHeight="2000" />
+<SubTexture name="up0001" x="792" y="2802" width="783" height="906" frameX="-625" frameY="-207" frameWidth="2000" frameHeight="2000" />
+</TextureAtlas>

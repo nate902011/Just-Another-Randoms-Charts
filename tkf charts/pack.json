@@ -1,0 +1,7 @@
+{
+	"name": "Tymek Kaszubowski Torture",
+	"description": "uh oh oh no",
+	"restart":true,
+	"runsGlobally": true,
+	"color": [170, 0, 255]
+}

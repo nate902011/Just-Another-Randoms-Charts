@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Retrogamer-r.png">
+<SubTexture name="i0000" x="0" y="0" width="230" height="201" frameX="-114" frameY="-104" frameWidth="436" frameHeight="382" />
+<SubTexture name="r0000" x="230" y="0" width="206" height="202" frameX="-115" frameY="-102" frameWidth="436" frameHeight="382" />
+<SubTexture name="u0000" x="0" y="202" width="175" height="277" frameX="-137" frameY="-16" frameWidth="436" frameHeight="382" />
+<SubTexture name="d0000" x="175" y="202" width="288" height="105" frameX="-104" frameY="-219" frameWidth="436" frameHeight="382" />
+<SubTexture name="l0000" x="0" y="479" width="173" height="202" frameX="-150" frameY="-102" frameWidth="436" frameHeight="382" />
+</TextureAtlas>

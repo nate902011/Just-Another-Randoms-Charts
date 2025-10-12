@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bambi of drip (very phase 49 mode) - vs babababb babab abab bab abba bsd ofisfgdfgd-0fjghopnbkp.png">
+<SubTexture name="down0000" x="0" y="0" width="524" height="672" frameX="-137" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="left0000" x="524" y="0" width="667" height="672" frameX="-7" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="right0000" x="1191" y="0" width="683" height="672" frameX="-124" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="up0000" x="0" y="672" width="553" height="700" frameX="-122" frameY="-44" frameWidth="800" frameHeight="800" />
+<SubTexture name="idle0000" x="553" y="672" width="550" height="537" frameX="-124" frameY="-207" frameWidth="800" frameHeight="800" />
+<SubTexture name="idle0001" x="1103" y="672" width="402" height="584" frameX="-204" frameY="-162" frameWidth="800" frameHeight="800" />
+<SubTexture name="idle0002" x="0" y="1372" width="553" height="643" frameX="-122" frameY="-101" frameWidth="800" frameHeight="800" />
+<SubTexture name="idle0003" x="553" y="1372" width="400" height="672" frameX="-205" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="lidle0000" x="953" y="1372" width="550" height="672" frameX="-124" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="lidle0001" x="0" y="2044" width="400" height="674" frameX="-205" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="lidle0002" x="400" y="2044" width="553" height="672" frameX="-122" frameY="-72" frameWidth="800" frameHeight="800" />
+<SubTexture name="lidle0003" x="553" y="1372" width="400" height="672" frameX="-205" frameY="-72" frameWidth="800" frameHeight="800" />
+</TextureAtlas>

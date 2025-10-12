@@ -1,0 +1,41 @@
+{
+	"storyName": "vs crazybi fantrack... wow... -VSDA VE FANRB OST",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"can i dm",
+			"crazybi",
+			[
+				124,
+				246,
+				246
+			]
+		],
+		[
+			"can i call",
+			"crazybi_freeplay",
+			[
+				84,
+				206,
+				206
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Week Crazybi"
+}

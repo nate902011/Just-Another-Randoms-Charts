@@ -1,0 +1,162 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				-7
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				43,
+				-31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				49,
+				-29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				56,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				74
+			],
+			"anim": "phoneSmash",
+			"fps": 38,
+			"name": "phone",
+			"indices": []
+		},
+		{
+			"offsets": [
+				4,
+				46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-18,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "shredder up"
+		},
+		{
+			"offsets": [
+				20,
+				-80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "shredder down"
+		},
+		{
+			"offsets": [
+				33,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "shredder left"
+		},
+		{
+			"offsets": [
+				-90,
+				-25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "shredder right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "shut_up",
+			"fps": 24,
+			"name": "SHUT UP",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"losing_colors": [
+		140,
+		0,
+		0
+	],
+	"no_antialiasing": false,
+	"image": "characters/angy bambi",
+	"shake_duration": 0,
+	"position": [
+		50,
+		300
+	],
+	"health_drain": false,
+	"shake_intensity": 0,
+	"healthicon": "angryRedBambiAlt",
+	"shake_screen": false,
+	"drain_floor": 0,
+	"flip_x": false,
+	"healthbar_colors": [
+		140,
+		0,
+		0
+	],
+	"drain_amount": 0,
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"noteskin": "",
+	"winning_colors": [
+		140,
+		0,
+		0
+	],
+	"scale": 1.1
+}

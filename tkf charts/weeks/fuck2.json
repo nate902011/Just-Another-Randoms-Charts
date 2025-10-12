@@ -1,0 +1,41 @@
+{
+	"storyName": "Vs Raged Phonbi Funtrack OST",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Furying",
+			"icon-angryRedBambi",
+			[
+				255,
+				0,
+				0
+			]
+		],
+		[
+			"Angering",
+			"icon-angryRedBambi_freeplay",
+			[
+				215,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Vs Raged Phonbi Funtrack OST"
+}

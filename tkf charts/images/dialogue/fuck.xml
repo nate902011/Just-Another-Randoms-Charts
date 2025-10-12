@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fuck.png">
+<SubTexture name="idle0000" x="0" y="0" width="386" height="320" frameX="0" frameY="-160" frameWidth="772" frameHeight="642" />
+<SubTexture name="idle0001" x="0" y="0" width="386" height="320" frameX="-150" frameY="-160" frameWidth="772" frameHeight="642" />
+<SubTexture name="idle0002" x="0" y="0" width="386" height="320" frameX="-232" frameY="-160" frameWidth="772" frameHeight="642" />
+<SubTexture name="idle0003" x="0" y="0" width="386" height="320" frameX="-287" frameY="-160" frameWidth="772" frameHeight="642" />
+<SubTexture name="idle0004" x="0" y="0" width="386" height="320" frameX="-315" frameY="-160" frameWidth="772" frameHeight="642" />
+<SubTexture name="idle0005" x="0" y="0" width="386" height="320" frameX="-328" frameY="-160" frameWidth="772" frameHeight="642" />
+</TextureAtlas>

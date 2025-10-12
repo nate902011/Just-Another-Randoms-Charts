@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BOYFRIEND-Lankybox.png">
+<SubTexture name="down0000" x="0" y="0" width="420" height="602" frameX="0" frameY="0" frameWidth="400" frameHeight="582" />
+<SubTexture name="left0000" x="420" y="0" width="420" height="602" frameX="0" frameY="0" frameWidth="400" frameHeight="582" />
+<SubTexture name="right0000" x="840" y="0" width="420" height="602" frameX="0" frameY="0" frameWidth="400" frameHeight="582" />
+<SubTexture name="up0000" x="0" y="602" width="420" height="602" frameX="0" frameY="0" frameWidth="400" frameHeight="582" />
+<SubTexture name="idle0000" x="840" y="602" width="620" height="717" frameX="0" frameY="-88" frameWidth="600" frameHeight="873" />
+<SubTexture name="idle0001" x="0" y="1319" width="616" height="715" frameX="-2" frameY="-89" frameWidth="600" frameHeight="873" />
+<SubTexture name="idle0002" x="616" y="1319" width="559" height="690" frameX="-31" frameY="-101" frameWidth="600" frameHeight="873" />
+<SubTexture name="idle0003" x="1175" y="1319" width="472" height="638" frameX="-74" frameY="-127" frameWidth="600" frameHeight="873" />
+<SubTexture name="idle0004" x="420" y="602" width="420" height="602" frameX="-100" frameY="-145" frameWidth="600" frameHeight="873" />
+</TextureAtlas>

@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "grrrrrrrrrrr me Angering (Furying 2)- Vs Raged Phonebi Funtrack",
+			"boxState": "angry",
+			"sound": "bambDialogue1",
+			"speed": 0.04,
+			"portrait": "fuck"
+		},
+		{
+			"expression": "talk",
+			"text": "coolswag",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.075,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "WARNING: Cool song incoming",
+			"boxState": "normal",
+			"sound": "bambDialogue3",
+			"speed": 0.05,
+			"portrait": "fuck"
+		},
+		{
+			"expression": "excited",
+			"text": "coolswager",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.075,
+			"portrait": "bf"
+		}
+	]
+}

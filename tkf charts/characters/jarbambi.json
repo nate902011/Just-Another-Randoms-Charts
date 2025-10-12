@@ -1,0 +1,151 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 20,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 20,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				-27
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				0
+			],
+			"anim": "singUP",
+			"fps": 20,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 18,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				20,
+				0
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "rloop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				23
+			],
+			"anim": "hey",
+			"fps": 20,
+			"name": "hey",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				23
+			],
+			"anim": "look",
+			"fps": 20,
+			"name": "hey",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				0
+			],
+			"anim": "phone",
+			"fps": 20,
+			"name": "smash",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "lalt",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"losing_colors": [
+		0,
+		195,
+		1
+	],
+	"no_antialiasing": false,
+	"image": "characters/JARBAMBER",
+	"shake_duration": 0,
+	"position": [
+		-300,
+		-70
+	],
+	"health_drain": false,
+	"shake_intensity": 0,
+	"healthicon": "jarbamb",
+	"shake_screen": false,
+	"drain_floor": 0.05,
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		255,
+		61
+	],
+	"drain_amount": 0.01,
+	"camera_position": [
+		-150,
+		150
+	],
+	"sing_duration": 4,
+	"noteskin": null,
+	"winning_colors": [
+		0,
+		255,
+		61
+	],
+	"scale": 0.7
+}

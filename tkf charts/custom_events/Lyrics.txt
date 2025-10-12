@@ -1,0 +1,9 @@
+Value 1: The text!!! duhhhh!!!!!!
+Value 2: Color code
+If both values are blank, any lyric added before it are removed.
+example: 
+
+Value 1: Eh, pretty good!
+Value 2: 333333
+
+Result: Dark grey "Eh, pretty good!" text

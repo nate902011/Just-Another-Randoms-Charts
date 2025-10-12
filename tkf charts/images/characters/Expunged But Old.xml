@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Expunged But Old.png">
+<SubTexture name="down0000" x="0" y="0" width="1718" height="1765" frameX="-786" frameY="-873" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="down0001" x="1718" y="0" width="1629" height="1849" frameX="-813" frameY="-803" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="idle0000" x="3347" y="0" width="1113" height="2667" frameX="-974" frameY="-166" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="left0000" x="0" y="2667" width="1804" height="2663" frameX="-355" frameY="-179" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="left0001" x="1804" y="2667" width="1751" height="2780" frameX="-512" frameY="-123" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="right0000" x="3555" y="2667" width="2461" height="2392" frameX="-376" frameY="-139" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="right0001" x="0" y="5447" width="2449" height="2439" frameX="-326" frameY="-139" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="up0000" x="2449" y="5447" width="1921" height="2811" frameX="-673" frameY="-64" frameWidth="3000" frameHeight="3000" />
+<SubTexture name="up0001" x="4370" y="5447" width="1922" height="2825" frameX="-672" frameY="-72" frameWidth="3000" frameHeight="3000" />
+</TextureAtlas>
