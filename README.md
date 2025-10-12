@@ -1,6 +1,8 @@
 # Just Another Random's Charts
 help me please dear god
 
+<b>USE FOR JS ENGINE ONLY<B>
+
 all of the vs dave and bambi volume 1 dialogue:
 
 
