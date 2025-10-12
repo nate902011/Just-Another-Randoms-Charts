@@ -3,14 +3,18 @@
 	"difficulties": "normal",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Pop",
@@ -47,22 +51,9 @@
 				113,
 				253
 			]
-		],
-		[
-			"fuckyfuckysuckysucky",
-			"overthink",
-			[
-				146,
-				113,
-				253
-			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Week Phonebi"
+	"hideStoryMode": false,
+	"weekName": "Week Phonebi",
+	"hiddenUntilUnlocked": false
 }
