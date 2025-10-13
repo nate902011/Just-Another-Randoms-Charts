@@ -1,10 +1,12 @@
 # Just Another Random's Charts
+<h3 align="center">
 help me please dear god
-
-<b>USE FOR JS ENGINE ONLY<B>
+</h3>
+<h1 align="center">
+<b>USE ON JS ENGINE ONLY (for now); OPTIMIZATIONS ARE HIGHLY RECOMMENDED, ESPECIALLY FOR RAGECORN, GLURP 2, AND edge of smashering rage anger</b>
+</h1>
 
 all of the vs dave and bambi volume 1 dialogue:
-
 
 // HOUSE //
 
