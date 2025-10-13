@@ -2,6 +2,7 @@
 	"name": "Tymek Kaszubowski Torture",
 	"description": "uh oh oh no",
 	"restart":true,
-	"runsGlobally": true,
+	"runsGlobally": false,
 	"color": [170, 0, 255]
+
 }
