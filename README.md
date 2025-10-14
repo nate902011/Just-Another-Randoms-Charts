@@ -283,7 +283,7 @@ Whoever outlasts the other will be proven the better singer.
 
 Hey... What about me? I did the singy thing.
 
-=Oh, No thanks, Bambi. This is between me and him!
+Oh, No thanks, Bambi. This is between me and him!
 
 ... Fine!
 
