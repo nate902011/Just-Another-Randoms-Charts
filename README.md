@@ -3,7 +3,7 @@
 help me please dear god
 </h3>
 <h1 align="center">
-<b>USE ON JS ENGINE/H-SLICE ONLY (for now); OPTIMIZATIONS ARE HIGHLY RECOMMENDED, ESPECIALLY FOR <i>Ragecorn</i>, <i>GLURP 2</i>, AND <i>edge of smashering rage anger</i> AND OR IF YOU HAVE A CRAPPY MACHINE</b>
+<b>USE ON JS ENGINE/H-SLICE ONLY (for normal difficulty songs, mania should work on Psych Engine); OPTIMIZATIONS ARE HIGHLY RECOMMENDED, ESPECIALLY FOR <i>Ragecorn</i>, <i>GLURP 2</i>, AND <i>edge of smashering rage anger</i> AND OR IF YOU HAVE A CRAPPY MACHINE</b>
 </h1>
 
 all of the vs dave and bambi volume 1 dialogue:
