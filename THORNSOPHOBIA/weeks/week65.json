@@ -1,0 +1,35 @@
+{
+	"storyName": "super hating simulator ft. BambiTheComposer",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "school",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"THORNSOPHOBIA",
+			"senpai-thornsophobia",
+			[
+				195,
+				195,
+				195
+			]
+		],
+		[
+			"THORNETICAL LIMIT",
+			"senpai-thornsophobia",
+			[
+				80,
+				80,
+				80
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"senpai",
+		"bf",
+		"gf"
+	],
+	"weekName": "Week 6.5"
+}

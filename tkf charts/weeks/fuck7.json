@@ -1,0 +1,50 @@
+{
+	"storyName": "Matt Wii Sports and Bambi Bambi Bambi wikes OST",
+	"difficulties": "normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Best Mode",
+			"mattold",
+			[
+				255,
+				130,
+				50
+			]
+		],
+		[
+			"Bang Crazy",
+			"mattangey",
+			[
+				255,
+				139,
+				0
+			]
+		],
+		[
+			"THE MASTER RAGE",
+			"mattangeyer",
+			[
+				215,
+				99,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}
