@@ -11,7 +11,7 @@ end
 function onUpdate()
 local health = getProperty('health')
 local maxHealth = getProperty('maxHealth')
-    if getPropertyFromClass('ClientPrefs', 'showcaseST') == 'JS' and getPropertyFromClass('ClientPrefs', 'showcaseMode') == true  then
+    if getPropertyFromClass('ClientPrefs', 'showcaseST') == 'JS' and getPropertyFromClass('ClientPrefs', 'showcaseMode') then
     removeLuaText('healthcount')
     return Function_Stop;
     end
@@ -35,25 +35,25 @@ local maxHealth = getProperty('maxHealth')
     end
 
     if getPropertyFromClass('ClientPrefs', 'showcaseST') == 'AMZ' then
-        if getPropertyFromClass('ClientPrefs', 'showcaseMode') == true then
+        if getPropertyFromClass('ClientPrefs', 'showcaseMode') then
         return Function_Stop;
         end
     end
-    if getPropertyFromClass('ClientPrefs', 'showcaseMode') == true then --an attempt to make it compatable with older js engine versions
+    if getPropertyFromClass('ClientPrefs', 'showcaseMode') then --an attempt to make it compatable with older js engine versions
     return Function_Stop;
     end
-    if getPropertyFromClass('ClientPrefs', 'ffmpegMode') == true then --incase the person using this just using rendering mode without showcase mode
+    if getPropertyFromClass('ClientPrefs', 'ffmpegMode') then --incase the person using this just using rendering mode without showcase mode
     return Function_Stop;
     end
-    if practice == true then
-        setTextColor('healthcount', 'ffffff')
-        setTextBorder('healthcount', 3, 'ff0000')
-        setProperty('healthcount.y', 370)
-        setTextString('healthcount', 'Fuck you, you practice mode cheater trash!\n- Bambi Bambi Bambi FNF\n'.. roundPc((health/maxHealth)*100, 2) ..'/'.. roundPc((maxHealth/maxHealth)*100, 2))
-        if botPlay == true then
-            setTextString('healthcount', 'Ha! You didn\'t even try just practice mode and gave up cheater!\n- Bambi Bambi Bambi FNF\n'.. roundPc((health/maxHealth)*100, 2) ..'/'.. roundPc((maxHealth/maxHealth)*100, 2))
-        else end
-    end
+    -- if practice == true then
+    --     setTextColor('healthcount', 'ffffff')
+    --     setTextBorder('healthcount', 3, 'ff0000')
+    --     setProperty('healthcount.y', 370)
+    --     setTextString('healthcount', 'Fuck you, you practice mode cheater trash!\n- Bambi Bambi Bambi FNF\n'.. roundPc((health/maxHealth)*100, 2) ..'/'.. roundPc((maxHealth/maxHealth)*100, 2))
+    --     if botPlay == true then
+    --         setTextString('healthcount', 'Ha! You didn\'t even try just practice mode and gave up cheater!\n- Bambi Bambi Bambi FNF\n'.. roundPc((health/maxHealth)*100, 2) ..'/'.. roundPc((maxHealth/maxHealth)*100, 2))
+    --     end
+    -- end
 end
 function roundPc(numb, dcpl)
     local multi = 10^(dcpl or 0)

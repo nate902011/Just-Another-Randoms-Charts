@@ -17,23 +17,15 @@ function onBeatHit()
 		setProperty('timeBarBG.scale.y', 0.8)
 		setProperty('botplayTxt.scale.x', 1.6)
 		setProperty('botplayTxt.scale.y', 0.8)
-		doTweenScale('timeTxt', 'timeTxt', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-		doTweenScale('timeBar', 'timeBar', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-		doTweenScale('timeBarBG', 'timeBarBG', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-		doTweenScale('botplayTxt', 'botplayTxt', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
 
 
 		if not hitBased then
-				setProperty('iconP1.scale.x', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.scale.y', 0.9 - 0.7 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.scale.x', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.scale.y', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
-				setProperty('iconP1.angle', 0 - 90 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.angle', 90 - 90 * (getProperty('health')/getProperty('maxHealth')))
-				doTweenScale('iconP1', 'iconP1', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenScale('iconP2', 'iconP2', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP1a', 'iconP1', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP2a', 'iconP2', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
+			setProperty('iconP1.scale.x', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.scale.y', 0.9 - 0.7 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.scale.x', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.scale.y', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
+			setProperty('iconP1.angle', 0 - 90 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.angle', 90 - 90 * (getProperty('health')/getProperty('maxHealth')))
 		end
 	elseif curBeat % 2 == 0 and curBeat % 4 ~= 0 then
 		setProperty('timeTxt.scale.x', 0.4)
@@ -44,25 +36,31 @@ function onBeatHit()
 		setProperty('timeBarBG.scale.y', 3.2)
 		setProperty('botplayTxt.scale.x', 0.4)
 		setProperty('botplayTxt.scale.y', 3.2)
-		doTweenScale('timeTxt', 'timeTxt', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-		doTweenScale('timeBar', 'timeBar', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-		doTweenScale('timeBarBG', 'timeBarBG', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-		doTweenScale('botplayTxt', 'botplayTxt', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
 
 
 		if not hitBased then
-				setProperty('iconP1.scale.x', 1 - 0.6 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.scale.y', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.scale.x', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
-				setProperty('iconP2.scale.y', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.angle', 120 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.angle', -120 + 30 * (getProperty('health') * getProperty('maxHealth')))
-				doTweenScale('iconP1', 'iconP1', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenScale('iconP2', 'iconP2', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP1a', 'iconP1', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP2a', 'iconP2', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
+			setProperty('iconP1.scale.x', 1 - 0.6 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.scale.y', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.scale.x', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
+			setProperty('iconP2.scale.y', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.angle', 120 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.angle', -120 + 30 * (getProperty('health') * getProperty('maxHealth')))
 		end
 	end
+	doTweenX('timeTxtx', 'timeTxt.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenX('timeBarx', 'timeBar.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenX('timeBarBGx', 'timeBarBG.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenX('botplayTxtx', 'botplayTxt.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenY('timeTxty', 'timeTxt.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenY('timeBary', 'timeBar.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenY('timeBarBGy', 'timeBarBG.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenY('botplayTxty', 'botplayTxt.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenX('iconP1x', 'iconP1.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenX('iconP2x', 'iconP2.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenY('iconP1y', 'iconP1.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenY('iconP2y', 'iconP2.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenAngle('iconP1a', 'iconP1', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
+	doTweenAngle('iconP2a', 'iconP2', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
 end
 
 function onCreatePost()
@@ -97,24 +95,23 @@ function goodNoteHit(id, dir, type, sustain)
 	if hitBased then
 		cancelTween('iconP1a')
 		if playhit % 2 == 0 then
-				setProperty('iconP1.scale.x', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.scale.y', 0.9 - 0.7 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.angle', 0 - 90 * (getProperty('health')/getProperty('maxHealth')))
-				doTweenScale('iconP1', 'iconP1', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP1a', 'iconP1', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
-				if not sustain then
-				playhit = playhit + 1
-				end
+			setProperty('iconP1.scale.x', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.scale.y', 0.9 - 0.7 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.angle', 0 - 90 * (getProperty('health')/getProperty('maxHealth')))
+			if not sustain then
+			playhit = playhit + 1
+			end
 		elseif playhit % 1 == 0 then
-				setProperty('iconP1.scale.x', 1 - 0.6 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.scale.y', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP1.angle', 120 * (getProperty('health')/getProperty('maxHealth')))
-				doTweenScale('iconP1', 'iconP1', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP1a', 'iconP1', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
-				if not sustain then
-				playhit = playhit - 1
-				end
+			setProperty('iconP1.scale.x', 1 - 0.6 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.scale.y', 0.2 + 3 * (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP1.angle', 120 * (getProperty('health')/getProperty('maxHealth')))
+			if not sustain then
+			playhit = playhit - 1
+			end
 		end
+		doTweenX('iconP1x', 'iconP1.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+		doTweenY('iconP1y', 'iconP1.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+		doTweenAngle('iconP1a', 'iconP1', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
 	end
 end
 
@@ -122,25 +119,23 @@ function opponentNoteHit(id, dir, type, sustain)
 	if hitBased then
 		cancelTween('iconP2a')
 		if opphit % 2 == 0 then
-				setProperty('iconP2.scale.x', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.scale.y', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
-				setProperty('iconP2.angle', 90 - 90 * (getProperty('health')/getProperty('maxHealth')))
-				doTweenScale('iconP2', 'iconP2', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP2a', 'iconP2', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
-				if not sustain then
-				opphit = opphit + 1
-				end
+			setProperty('iconP2.scale.x', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.scale.y', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
+			setProperty('iconP2.angle', 90 - 90 * (getProperty('health')/getProperty('maxHealth')))
+			if not sustain then
+			opphit = opphit + 1
+			end
 		elseif opphit % 1 == 0 then
-				setProperty('iconP2.scale.x', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
-				setProperty('iconP2.scale.y', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
-				setProperty('iconP2.angle', -120 + 30 * (getProperty('health') * getProperty('maxHealth')))
-				doTweenScale('iconP2', 'iconP2', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
-				doTweenAngle('iconP2a', 'iconP2', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
-			elseif daBounceType == "OS Engine" then
-				if not sustain then
-				opphit = opphit - 1
-				end
+			setProperty('iconP2.scale.x', 0.7 - 0.225 / (getProperty('health') * getProperty('maxHealth')))
+			setProperty('iconP2.scale.y', 0.4 + 0.8 / (getProperty('health')/getProperty('maxHealth')))
+			setProperty('iconP2.angle', -120 + 30 * (getProperty('health') * getProperty('maxHealth')))
+			if not sustain then
+			opphit = opphit - 1
+			end
 		end
+		doTweenX('iconP2x', 'iconP2.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+		doTweenY('iconP2y', 'iconP2.scale', 1, ((60/curBpm)/playbackRate)*2, 'backOut')
+		doTweenAngle('iconP2a', 'iconP2', 0, ((60/curBpm)/playbackRate)*2, 'backOut')
 	end
 end
 

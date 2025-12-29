@@ -1,0 +1,96 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "matt idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				-40
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "matt left note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				-100
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "matt down note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "matt up note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-32
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "matt right note",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"losing_colors": [
+		215,
+		90,
+		10
+	],
+	"no_antialiasing": false,
+	"image": "characters/matt_old",
+	"shake_duration": 0,
+	"position": [
+		50,
+		250
+	],
+	"health_drain": false,
+	"shake_intensity": 0,
+	"healthicon": "mattold",
+	"shake_screen": false,
+	"drain_floor": 0.05,
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		130,
+		50
+	],
+	"drain_amount": 0.01,
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"noteskin": null,
+	"winning_colors": [
+		255,
+		130,
+		50
+	],
+	"scale": 1
+}
