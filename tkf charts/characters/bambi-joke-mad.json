@@ -1,0 +1,118 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				100,
+				-25
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-40
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				180
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-150,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-80
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "die",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-30,
+				-80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "die",
+			"loop": false,
+			"name": "die"
+		}
+	],
+	"vocals_file": "",
+	"losing_colors": [
+		0,
+		141,
+		0
+	],
+	"no_antialiasing": false,
+	"image": "characters/bambi-joke-mad",
+	"shake_duration": 0.02,
+	"position": [
+		100,
+		100
+	],
+	"health_drain": false,
+	"shake_intensity": 0.01,
+	"healthicon": "bambi-joke-mad",
+	"shake_screen": true,
+	"drain_floor": 0.05,
+	"flip_x": true,
+	"healthbar_colors": [
+		12,
+		181,
+		0
+	],
+	"drain_amount": 0.01,
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"noteskin": null,
+	"winning_colors": [
+		12,
+		181,
+		0
+	],
+	"scale": 1
+}
